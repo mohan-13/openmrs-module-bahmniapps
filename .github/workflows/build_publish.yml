@@ -88,3 +88,4 @@ jobs:
           git add .
           git commit -m "Release of bahmni-web-${{ env.ARTIFACT_VERSION }}"
           git push 'https://${{ secrets.BAHMNI_USERNAME}}:${{ secrets.BAHMNI_PAT}}@github.com/bahmni/helm-charts.git' gh-pages
+
